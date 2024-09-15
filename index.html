@@ -1,11 +1,105 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="heder">
+    <div id="container">
+        <h1>BATTALON FORCE MANAGEMENT</h1>
+    </div>
+    <div class="mu">
+
+    </div>
+    <div id="divform"  >
+        <form id="form">
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Full Name" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Rank" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Position" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Platoon" required>
+            <select name=""  class="fromInput"  id="select">
+                <option value="">Active</option>
+                <option value="">InActive</option>
+            </select>
+            <input   id="input-btn" onclick="addSoldier()" type="submit" value="Add Personnel">
+        </form>
+    </div>
+        <div id="h2">FORCES OVERVIEW</div>
+    <div class="mu"></div>
+    <div id="divTable">
+        <table id="soldiersTable"></table>
+            <thead>
+                <tr>
+                    <th>ACTIONS</th>
+                    <th>STATUS</th>
+                    <th>PLATOON</th>
+                    <th>POSITION</th>
+                    <th>RANK</th>
+                    <th>FULL NAME</th>
+                </tr>
+            </thead>
+            <tbody id="test"></tbody>
+        </table>
+    </div>
+
+    </div>
+   
     
+
+    <script defer src="index.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battalion Force Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="header">
+    <div id="container">
+        <h1>BATTALION FORCE MANAGEMENT</h1>
+    </div>
+    <div class="mu"></div>
+    <div id="divform">
+        <form id="form">
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Full Name" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Rank" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Position" required>
+            <input style="width: 80%;" type="text" class="fromInput" placeholder="Platoon" required>
+            <select name="status" class="fromInput" id="select">
+                <option value="active">Active</option>
+                <option value="inactive">Inactive</option>
+            </select>
+            <button type="submit" id="input-btn" onclick="addSoldier()">Add Personnel</button>
+        </form>
+    </div>
+    <h2 id="h2">FORCES OVERVIEW</h2>
+    <div class="mu"></div>
+    <div id="divTable">
+        <table id="soldiersTable">
+            <thead>
+                <tr>
+                    <th>ACTIONS</th>
+                    <th>STATUS</th>
+                    <th>PLATOON</th>
+                    <th>POSITION</th>
+                    <th>RANK</th>
+                    <th>FULL NAME</th>
+                </tr>
+            </thead>
+            <tbody id="test"></tbody>
+        </table>
+    </div>
+    <script defer src="index.js"></script>
 </body>
 </html>

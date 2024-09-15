@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* @media screen and (){
+    
+} */
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    /* height: 100%; */
+    background-color: #2C3E50;
+}
+
+#container h1{
+    color: #27AC5F;   
+}
+
+.mu{
+    height: 2px;
+    background-color: #27AC5F;
+    width: 100%;
+}
+
+#divform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:  #2C3E50;
+    
+}
+
+ #form{
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 600px;
+    padding: 10px 10px 10px 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 30px;
+  
+}
+
+.fromInput{
+    background-color: #22313F;
+    margin: 10px 10px 10px 10px;
+}
+
+#select{
+    background-color: #22313F;
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+}
+
+#input-btn{
+    background-color: #27AC5F;
+    margin: 10px 10px 10px 10px;
+    width: 80%;
+
+}
+
+#h2{
+    display: flex;
+    justify-content: center;
+    background-color: #2C3E50;
+    color: #27AC5F;
+    padding: 5px 5px 5px 5px;
+}
+
+#divTable{
+    display: flex;
+    justify-content:center;
+    /* align-items: center; */
+    background-color: #2C3E50 ;
+}
+
+/* #soldiersTable{
+
+    width: 95%;
+    
+} */
+
+th{
+    background-color: #F2F2F2;
+
+    font-size: 20px;
+    border: 10px solid #F2F2F2;
+    
+}
+
+td{
+    background-color: #2C3E50;
+    color: #F2F2F2;
+    font-size: 20px;
+    border: 1px solid ;
+    margin: 0px;
+}
+
+.tableBtn{
+    background-color: #27AC5F; ;
+}
+
+
+
